@@ -661,7 +661,7 @@ ion-icon:hover {
 
 #experience__block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2rem;
     width: 100%;
     max-width: 1200px;
@@ -729,6 +729,7 @@ ion-icon:hover {
 #languages__block {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     gap: 2rem;
     flex-wrap: nowrap;
     max-width: 1200px;
@@ -805,6 +806,7 @@ ion-icon:hover {
 /* Ajuste responsivo para a seção de idiomas */
 @media screen and (max-width: 768px) {
     #languages__block {
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 1.5rem;
     }
